@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+
+<body>
+
+  <div class="main w-full">
+    <nav class="fixed w-full top-0 left-0 px-5 py-1 flex justify-between items-center">
+      <img class="w-[160px] filter  top-10 left-10 saturate-150 contrast-125 mix-blend-lighten" src="https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png" alt="">
+      <div class="flex gap-10 items-center">
+      <a href="http://localhost:5173/" class="tracking-tight text-white text-lg font-semibold hover:text-blue-500">Home</a>
+      <a href="https://poki.com/" class="tracking-tight text-white text-lg font-semibold hover:text-blue-500">Games</a>
+      <a href="https://gamerant.com/gaming/" class="tracking-tight text-white text-lg font-semibold hover:text-blue-500">News</a>
+      <a href="https://support.cdprojektred.com/en/" class="tracking-tight text-white text-lg font-semibold hover:text-blue-500">Support</a>
+      <a href="https://www.cyberpunk.net/us/en/" class="tracking-tight text-white text-lg font-semibold hover:text-blue-500">About</a>
+    </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden">
+      <img class="w-3/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten saturate-200 contrast-150" src="https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png" alt="">
+
+      <div class="w-[32rem] h-[32rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] rounded-full bg-blue-800 blur-3xl" ></div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="w-full h-screen bg-gradient-to-b from-black to-white">
+      <div class="w-full h-52 absolute top-0 left-0 "></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
